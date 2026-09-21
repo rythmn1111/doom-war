@@ -1,0 +1,36 @@
+# virtualenv / build
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# secrets — never commit an API key
+jev.txt
+.env
+
+# model weights (downloaded, ~660 MB)
+models/
+
+# generated at runtime
+arena.wad
+frames/
+frames_clean/
+out/
+telemetry.jsonl
+results.json
+run.log
+
+# macOS
+.DS_Store
+
+# vendored clone of the upstream MLX runtime — install from PyPI instead
+laya-mlx/
+
+# third-party reference footage used while building; not ours to redistribute
+video/
+
+# vizdoom writes this next to the binary
+_vizdoom.ini
+_vizdoom/

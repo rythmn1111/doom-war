@@ -1,0 +1,45 @@
+{
+  "mode": "realtime",
+  "wall_seconds": 63.2,
+  "rounds_won": {
+    "laya": 5,
+    "jev": 1
+  },
+  "round_order": [
+    "laya",
+    "laya",
+    "laya",
+    "laya",
+    "jev",
+    "laya"
+  ],
+  "winner": "laya",
+  "fighters": {
+    "jev": {
+      "rounds_won": 1,
+      "monster_kills": 4,
+      "deaths": 5,
+      "decisions": 136,
+      "latency_p50_ms": 399.8,
+      "latency_p95_ms": 663.2,
+      "overridden_pct": 30.7,
+      "input_tokens": 132875,
+      "cost_usd": 0.005581,
+      "errors": 0,
+      "game_tics": 1902
+    },
+    "laya": {
+      "rounds_won": 5,
+      "monster_kills": 4,
+      "deaths": 1,
+      "decisions": 264,
+      "latency_p50_ms": 244.1,
+      "latency_p95_ms": 287.4,
+      "overridden_pct": 88.3,
+      "input_tokens": 414426,
+      "cost_usd": 0.0,
+      "errors": 0,
+      "game_tics": 2208
+    }
+  }
+}
